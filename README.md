@@ -31,3 +31,8 @@ Require stack:
     at Array.reduce (<anonymous>)
 Process finished with exit code -1
 ```
+
+**Solution:**
+
+The issue was related to the node version `13.7.0`.  
+Upgrading to `14.3.0` fixed it.

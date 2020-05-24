@@ -17,7 +17,7 @@
   "private": false,
   "main": "./src/index.ts",
   "scripts": {
-    "lint": "eslint --fix --ext .js,.ts --cache scripts/ src/ jest.config.js config.ts"
+    "lint": "eslint --fix --ext .js,.ts --cache src/ jest.config.js config.ts"
   },
   "devDependencies": {
     "@types/jest": "25.2.3",
